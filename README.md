@@ -11,7 +11,7 @@ America's National Pastime has developed over the course of its 200-year history
 
 This web application is built with the intention of being able to convey notable statistics from the New York Yankees' 40-man roster. 
 
-Player information is derived by an asynchronous fetch request from the user's input. The server-side constructed API handles the user's requests and retrieves appropriate data from our MongoDB collection. Player information is then pushed to a corresponding array and sent back as a JSON response. The client-side JavaScript utilizes the JSON response and responds with the player statistics the user had requested, displaying it to the DOM.
+Player information is derived by an asynchronous fetch request from the user's input. The server-side constructed API handles the user's requests and retrieves appropriate data from the respective MongoDB collection. Player information is then pushed to a corresponding array and sent back as a JSON response. The client-side JavaScript utilizes the JSON response and responds with the player statistics the user had requested, displaying it to the DOM.
 
 ## Optimizations
 Additional optimizations for this project are currently on-going.
