@@ -3,7 +3,7 @@ document.querySelector('#getButton').addEventListener('click', apiRequest)
 async function apiRequest(){
     const playerName = document.querySelector('input').value
     try{
-        const response = await fetch(` https://yankees-2022-roster.herokuapp.com/api/${playerName}`)
+        const response = await fetch(`https://yankees-2022-roster.herokuapp.com/api/${playerName}`)
         const data = await response.json();
         console.log(data);
 
