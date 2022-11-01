@@ -11,7 +11,7 @@ America's National Pastime has developed over the course of its 200-year history
 
 This web application is built with the intention of being able to convey notable statistics from the New York Yankees' 40-man roster. 
 
-Player information is derived by an asynchronous fetch request from the user's input. The server-side constructed API handles the user's requests and retrieves appropriate data from our MongoDB database. Player information is then pushed to a corresponding array and sent back as a JSON response. The client-side JavaScript utilizes the JSON response and responds with the player statistics the user had requested, displaying it to the DOM.
+Player information is derived by an asynchronous fetch request from the user's input. The server-side constructed API handles the user's requests and retrieves appropriate data from our MongoDB collection. Player information is then pushed to a corresponding array and sent back as a JSON response. The client-side JavaScript utilizes the JSON response and responds with the player statistics the user had requested, displaying it to the DOM.
 
 ## Optimizations
 Additional optimizations for this project are currently on-going.
@@ -19,4 +19,4 @@ Additional optimizations for this project are currently on-going.
 <li>Added .env file to hide connection string to MongoDB.</li>
 
 ## Lessons Learned:
-The largest lesson with this project is gaining familiarity with Node.js, Express, and MongoDB. By utilizing CRUD methods, my server-side code is simplified and legible for others to read and understand. Taking the user's request and being able to serve the appropriate data opens a multitude of doors. Furthermore, seeing the transition of retreiving data locally to having the API hosted online and receive and respond fluidly demonstrated some of the "magic" involved with programming.
+The largest lesson with this project is gaining familiarity with Node.js, Express, and MongoDB. By utilizing CRUD methods, my server-side code is simplified and legible for others to read and understand. Taking the user's request and being able to serve the appropriate data opens a multitude of doors. Furthermore, seeing the transition from retrieving data locally to having the API hosted online and receiving and responding fluidly demonstrated some of the "magic" involved with programming.
