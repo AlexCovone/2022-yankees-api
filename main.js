@@ -9,12 +9,13 @@ async function apiRequest(){
 
         if(data.player === 'batter'){
             document.getElementById('playerName').innerText = data.batterName
-            document.getElementById('stat1').innerText = 'Games Played: ' + data.gamesPlayed
-            document.getElementById('stat2').innerText = 'Slash Line: ' + data.slashLine
-            document.getElementById('stat3').innerText = 'Homeruns: ' + data.homeruns
-            document.getElementById('stat4').innerText = 'RBI: ' + data.rbi
-            document.getElementById('stat5').innerText = 'OPS+: ' + data.opsPlus
-            document.getElementById('stat6').innerText = 'fWAR: ' + data.fWAR
+            document.getElementById('position').innerText = data.position
+            document.getElementById('stat1').innerText = 'At Bats: ' + data.atBats
+            document.getElementById('stat2').innerText = 'Batting Average: ' + data.battingAverage
+            document.getElementById('stat3').innerText = 'On-Base Percentage: ' + data.onBasePercentage
+            document.getElementById('stat4').innerText = 'OPS: ' + data.ops
+            document.getElementById('stat5').innerText = 'Homeruns: ' + data.homeruns
+            document.getElementById('stat6').innerText = 'RBI: ' + data.rbi
     
             document.getElementById('playerImage').src = data.image
             document.getElementById('playerCaption').innerText = data.batterName
@@ -24,8 +25,8 @@ async function apiRequest(){
             document.getElementById('stat2').innerText = 'ERA: ' + data.era
             document.getElementById('stat3').innerText = 'WHIP: ' + data.whip
             document.getElementById('stat4').innerText = 'Strikeouts: ' + data.strikeouts
-            document.getElementById('stat5').innerText = 'Walks: ' + data.walks
-            document.getElementById('stat6').innerText = 'fWAR: ' + data.fWAR 
+            document.getElementById('stat5').innerText = 'Wins: ' + data.wins
+            document.getElementById('stat6').innerText = 'Losses: ' + data.losses 
 
     
             document.getElementById('playerImage').src = data.image

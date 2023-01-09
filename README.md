@@ -1,4 +1,4 @@
-# 2022 New York Yankees Roster Statistics
+# 2022 Hudson Valley Renegades Roster Statistics
 America's National Pastime has developed over the course of its 200-year history. In today's modern era, baseball relies heavily on advanced metrics and statistics in an effort to analyze players' tendencies and effectiveness. This web application serves as a means to retrieve notable statistics from the 2022 New York Yankees' active 40-man roster.
 
 **Live Website:** https://2022yankees.netlify.app/
@@ -9,7 +9,7 @@ America's National Pastime has developed over the course of its 200-year history
 
 **Tech used:** Node.js, Express, MongoDB, JavaScript, HTML, CSS
 
-This web application is built with the intention of being able to convey notable statistics from the New York Yankees' 40-man roster. 
+This web application is built with the intention of being able to convey notable statistics from the Hudson Valley Renegades' roster. 
 
 Player information is derived by an asynchronous fetch request from the user's input. The server-side constructed API handles the user's requests and retrieves appropriate data from the respective MongoDB collection. Player information is then pushed to a corresponding array and sent back as a JSON response. The client-side JavaScript utilizes the JSON response and responds with the player statistics the user had requested, displaying it to the DOM.
 
