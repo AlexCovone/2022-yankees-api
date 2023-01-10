@@ -20,7 +20,7 @@ MongoClient.connect(dbConnectionStr)
         const infoCollection = db.collection('player-info')
 
     app.get('/', (request, response) => {
-        response.sendFile(__dirname + 'index.html')
+        response.sendFile('index.html')
     })
         
     app.get('/api/:playerName', (request, response) => {
